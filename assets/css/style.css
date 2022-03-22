@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "SFProDisplay";
+    src: url("../fonts/SFProDisplay-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "SFProDisplay";
+    src: url("../fonts/SFProDisplay-Semibold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: "SFProDisplay";
+    src: url("../fonts/SFProDisplay-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+body{
+    font-family: "SFProDisplay", sans-serif;
+    width: 1600px;
+    overflow-x: hidden;
+}
+/* ----------------------- Header ----------------------- */
+header{
+    height: 56px;
+    width: 1600px;
+}
+/* ----------------------- Section 1 ----------------------- */
+.Sec1Div{
+    height: 2680px;
+    width: 1600px;
+    background-color: white;
+}
+/* ----------------------- Section 2 ----------------------- */
+.Sec2Div{
+    height: 3074px;
+    width: 1600px;
+    background-color: white;
+}
+/* ----------------------- Section 3 ----------------------- */
+.Sec3Div{
+    width: 1600px;
+    height: 780px;
+    background-color: white;
+}
+/* ----------------------- Footer ----------------------- */
+footer{
+    width: 1600px;
+    height: 323px;
+    background-color: #161616;
+}
