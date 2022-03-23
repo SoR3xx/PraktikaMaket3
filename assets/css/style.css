@@ -26,28 +26,367 @@ body{
     width: 1600px;
     overflow-x: hidden;
 }
+section{
+    color: #161616;
+}
 /* ----------------------- Header ----------------------- */
 header{
     height: 56px;
     width: 1600px;
+    border-bottom: 1px solid #161616;
+    padding-left: 200px;
+    display: flex;
+}
+.Logo{
+    width: 32px;
+    height: 32px;
+    margin-top: 11.5px;
+}
+.LineHeader{
+    width: 1px;
+    height: 32px;
+    margin: 11.5px 0 0 12px;
+    background-color: #161616;
+}
+.NameSite{
+    width: 47px;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 11px 0 0 11px;
+}
+header .NavigationMain a{
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #161616;
+    margin-left: 21px;
+}
+header .NavigationMain{
+    margin: 19px 0 0 79px;
+}
+header nav a:hover{
+    color: gray;
+}
+.GetPaid{
+    margin-left: 138px;
+}
+header .NavigationLanguage a{
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #cacaca;
+    margin-left: 7px;
+}
+header .NavigationLanguage{
+    margin: 19px 0 0 193px;
+}
+#TextRu{
+    color: #161616;
+}
+.Share{
+    width: 111px;
+    height: 24px;
+    margin: 15.5px 0 0 78px;
+    font-size: 14px;
+    display: flex;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #161616;
+}
+.LogIn{
+    width: 111px;
+    height: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 15.5px 0 0 40px;
+    display: flex;
+    color: #161616;
+}
+.Share p{
+    margin: 3.5px 0 0 10px;
+}
+.LogIn p{
+    margin: 3.5px 0 0 10px;
 }
 /* ----------------------- Section 1 ----------------------- */
 .Sec1Div{
     height: 2680px;
     width: 1600px;
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 402px;
+    padding-right: 200px;
+}
+.Socials{
+    width: 196px;
+    height: 65px;
+    align-self: flex-end;
+    background-color: white;
+    margin-right: 258px;
+    padding-left: 20px;
+    filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.1));
+    align-items: center;
+}
+.Socials img{
+    width: 24px;
+    height: 24px;
+    margin: 10px 17px 0 0;
+}
+.Socials img:hover{
+    transform: scale(1.1);
+}
+.WhoAreWe{
+    text-transform: uppercase;
+}
+.WhoAreWe p{
+    font-size: 14px;
+    font-weight: 600;
+}
+h2{
+    font-size: 64px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.MiratexName{
+    margin-top: 3px;
+}
+.WhatWeDo{
+    width: 383px;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 5.5px 0 0 94px;
+}
+.MainText{
+    display: flex;
+    margin: 78.5px 0 145px 0;
+}
+.LastTime{
+    width: 399px;
+    font-weight: 500;
+    font-size: 14px;
+    align-self: flex-end;
+    margin-top: 150px;
+}
+h3{
+    font-size: 48px;
+    font-weight: 500;
+}
+.HowYouCanText{
+    width: 500px;
+    margin: 112.5px 0 70px 0;
+}
+.TwoArrows{
+    display: flex;
+    width: 773px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.SecondArrow{
+    margin-left: 84.5px;
+}
+.AdditionalPlace{
+    width: 225.5px;
+    margin: 9px 0 0 30px;
+}
+.Dividents{
+    width: 283px;
+    margin: 9px 0 0 30px;
+}
+.Lowercase span{
+    text-transform: lowercase;
+}
+.Lowercase{
+    width: 397px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 40px;
+    align-self: flex-end;
+}
+.GetPaidWithUs{
+    align-self: flex-end;
+    width: 380px;
+    text-transform: uppercase;
+    margin: 120px 20px 0 0;
+}
+.ButtonKnowMore{
+    font-weight: 600;
+    font-size: 14px;
+    padding: 21.5px 138px;
+    border: 1px solid #161616;
+    align-self: flex-end;
+    width: 400px;
+    height: 60px;
+    margin-top: 40px;
+    text-decoration: none;
+    color: #161616;
+    text-transform: uppercase;
+}
+.Catalog{
+    margin: 143px 0 70px 0;
+}
+.Models1 a{
+    text-decoration: none;
+    color: #161616;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+}
+.Models1{
+    display: flex;
+    justify-content: space-between;
+}
+.Models2 a{
+    text-decoration: none;
+    color: #161616;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+}
+.Models2{
+    display: flex;
+    justify-content: space-between;
+    width: 690px;
+    margin: 40px 0 70px 0;
+}
+.ButtonDownloadCatalog{
+    font-weight: 600;
+    font-size: 14px;
+    padding: 21.5px 133px;
+    border: 1px solid #161616;
+    align-self: flex-start;
+    width: 400px;
+    height: 60px;
+    margin: 40px 0 150px 0;
+    text-decoration: none;
+    color: #161616;
+    text-transform: uppercase;
 }
 /* ----------------------- Section 2 ----------------------- */
 .Sec2Div{
     height: 3074px;
     width: 1600px;
     background-color: white;
+    padding-left: 401px;
+    padding-top: 20px;
+}
+.FirstTextSec2{
+    margin-bottom: 20px;
+}
+.imagesToRIGHTSec2{
+    display: flex;
+    margin-top: 150px;
+}
+.LeftToiletAndSink img{
+    width: 290px;
+    height: 290px;
+    margin-bottom: 20px;
+}
+.StupidPic{
+    width: 800px;
+    height: 600px;
+}
+.TwoDivs{
+    display:flex;
+}
+.FirstDivSec2{
+    width: 400px;
+    margin-top: 150px;
+}
+.SecondDivSec2{
+    width: 402px;
+    align-self: flex-end;
+    margin-left: 200px;
+    height: 1274px;
+}
+.FirstDivSec2 ul{
+    margin: 100px 0 70px 20px;
+}
+.FirstDivSec2 ul li{
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 17px;
+}
+.Armor{
+    font-weight: 600;
+    font-size: 14px;
+    padding: 21.5px 60px;
+    border: 1px solid #161616;
+    align-self: flex-end;
+    width: 400px;
+    height: 60px;
+    text-decoration: none;
+    color: #161616;
+    text-transform: uppercase;
+}
+.IdealVariant{
+    width: 376px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 200px;
+    margin-top: 10px;
+}
+.SecondImageIdeal{
+    width: 402px;
+    height: 503px;
+    margin-bottom: 20px;
+}
+.ThirdImageIdeal{
+    width: 402px;
+    height: 503px;
+}
+.LastLineSec2{
+    margin-top: 85px;
 }
 /* ----------------------- Section 3 ----------------------- */
 .Sec3Div{
     width: 1600px;
+    padding-top: 70px;
     height: 780px;
     background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.TwoArrowsSec3{
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+.TwoArrowsSec3 img{
+    width: 60px;
+    height: 60px;
+}
+.Sec3Div h3{
+    width: 500px;
+    margin-top: 150px;
+    align-self: flex-end;
+    margin-right: 300px;
+}
+.Sec3Div p{
+    width: 300px;
+    margin: 40px 0 50px 0;
+    align-self: center;
+    margin-left: 300px;
+}
+.LastIcons img{
+    width: 48px;
+    height: 48px;
+    margin-right: 40px;
+}
+.LastIcons img:hover{
+    transform: scale(1.1);
+}
+.LastIcons{
+    align-self: center;
+    margin-left: 350px;
 }
 /* ----------------------- Footer ----------------------- */
 footer{
